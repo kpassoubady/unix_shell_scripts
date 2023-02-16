@@ -7,3 +7,4 @@ do
   factorial=$((factorial * i))
 done
 echo "The factorial of $num is $factorial"
+echo "The factorial of $num is $factorial" > fact.txt
